@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,12 @@
 		A948434B266757A900666C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9484349266757A900666C01 /* LaunchScreen.storyboard */; };
 		A9484356266757A900666C01 /* XLLMVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9484355266757A900666C01 /* XLLMVVMDemoTests.swift */; };
 		A9484361266757A900666C01 /* XLLMVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9484360266757A900666C01 /* XLLMVVMDemoUITests.swift */; };
+		A948437626675E6100666C01 /* ReactiveObjC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A948437526675E6100666C01 /* ReactiveObjC.storyboard */; };
+		A948437826675F1500666C01 /* ReactiveCocoa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A948437726675F1500666C01 /* ReactiveCocoa.storyboard */; };
+		A948437A26675F2400666C01 /* RxSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A948437926675F2400666C01 /* RxSwift.storyboard */; };
+		A948437E26675F5D00666C01 /* XLLReactiveObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A948437D26675F5D00666C01 /* XLLReactiveObjCViewController.m */; };
+		A9484381266763C300666C01 /* XLLReactiveObjCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9484380266763C300666C01 /* XLLReactiveObjCViewModel.m */; };
+		A9484384266771AF00666C01 /* XLLReactiveObjCCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9484383266771AF00666C01 /* XLLReactiveObjCCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,15 @@
 		A948435C266757A900666C01 /* XLLMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9484360266757A900666C01 /* XLLMVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLLMVVMDemoUITests.swift; sourceTree = "<group>"; };
 		A9484362266757A900666C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A948437526675E6100666C01 /* ReactiveObjC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReactiveObjC.storyboard; sourceTree = "<group>"; };
+		A948437726675F1500666C01 /* ReactiveCocoa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReactiveCocoa.storyboard; sourceTree = "<group>"; };
+		A948437926675F2400666C01 /* RxSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift.storyboard; sourceTree = "<group>"; };
+		A948437C26675F5D00666C01 /* XLLReactiveObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLReactiveObjCViewController.h; sourceTree = "<group>"; };
+		A948437D26675F5D00666C01 /* XLLReactiveObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLReactiveObjCViewController.m; sourceTree = "<group>"; };
+		A948437F266763C300666C01 /* XLLReactiveObjCViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLReactiveObjCViewModel.h; sourceTree = "<group>"; };
+		A9484380266763C300666C01 /* XLLReactiveObjCViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLReactiveObjCViewModel.m; sourceTree = "<group>"; };
+		A9484382266771AF00666C01 /* XLLReactiveObjCCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLReactiveObjCCodeViewController.h; sourceTree = "<group>"; };
+		A9484383266771AF00666C01 /* XLLReactiveObjCCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLReactiveObjCCodeViewController.m; sourceTree = "<group>"; };
 		AD829713DF43BC488C43EB78 /* Pods-XLLMVVMDemo-XLLMVVMDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLMVVMDemo-XLLMVVMDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-XLLMVVMDemo-XLLMVVMDemoUITests/Pods-XLLMVVMDemo-XLLMVVMDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F50E96F168AFCB677CB68785 /* Pods-XLLMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLMVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-XLLMVVMDemo/Pods-XLLMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +116,6 @@
 				54A386E3A30E9996B4B4F89A /* Pods-XLLMVVMDemoTests.debug.xcconfig */,
 				3BCC66749B46263BFDBD1611 /* Pods-XLLMVVMDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,13 +144,10 @@
 		A948433D266757A600666C01 /* XLLMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A948437126675C7400666C01 /* Main */,
+				A948436F26675C5100666C01 /* SupportingFiles */,
 				A948433E266757A600666C01 /* AppDelegate.swift */,
 				A9484340266757A600666C01 /* SceneDelegate.swift */,
-				A9484342266757A600666C01 /* ViewController.swift */,
-				A9484344266757A600666C01 /* Main.storyboard */,
-				A9484347266757A900666C01 /* Assets.xcassets */,
-				A9484349266757A900666C01 /* LaunchScreen.storyboard */,
-				A948434C266757A900666C01 /* Info.plist */,
 			);
 			path = XLLMVVMDemo;
 			sourceTree = "<group>";
@@ -157,6 +168,58 @@
 				A9484362266757A900666C01 /* Info.plist */,
 			);
 			path = XLLMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+		A948436F26675C5100666C01 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A9484344266757A600666C01 /* Main.storyboard */,
+				A948437526675E6100666C01 /* ReactiveObjC.storyboard */,
+				A948437726675F1500666C01 /* ReactiveCocoa.storyboard */,
+				A948437926675F2400666C01 /* RxSwift.storyboard */,
+				A9484347266757A900666C01 /* Assets.xcassets */,
+				A9484349266757A900666C01 /* LaunchScreen.storyboard */,
+				A948434C266757A900666C01 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A948437126675C7400666C01 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A948437426675C9B00666C01 /* RxSwift */,
+				A948437326675C9000666C01 /* ReactiveCocoa */,
+				A948437226675C8400666C01 /* ReactiveObjC */,
+				A9484342266757A600666C01 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A948437226675C8400666C01 /* ReactiveObjC */ = {
+			isa = PBXGroup;
+			children = (
+				A948437C26675F5D00666C01 /* XLLReactiveObjCViewController.h */,
+				A948437D26675F5D00666C01 /* XLLReactiveObjCViewController.m */,
+				A9484382266771AF00666C01 /* XLLReactiveObjCCodeViewController.h */,
+				A9484383266771AF00666C01 /* XLLReactiveObjCCodeViewController.m */,
+				A948437F266763C300666C01 /* XLLReactiveObjCViewModel.h */,
+				A9484380266763C300666C01 /* XLLReactiveObjCViewModel.m */,
+			);
+			path = ReactiveObjC;
+			sourceTree = "<group>";
+		};
+		A948437326675C9000666C01 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		A948437426675C9B00666C01 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		F5A9A85D4F3DE097A9490D66 /* Frameworks */ = {
@@ -241,6 +304,7 @@
 				TargetAttributes = {
 					A948433A266757A600666C01 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					A9484350266757A900666C01 = {
 						CreatedOnToolsVersion = 12.5;
@@ -277,9 +341,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A948437A26675F2400666C01 /* RxSwift.storyboard in Resources */,
 				A948434B266757A900666C01 /* LaunchScreen.storyboard in Resources */,
 				A9484348266757A900666C01 /* Assets.xcassets in Resources */,
 				A9484346266757A600666C01 /* Main.storyboard in Resources */,
+				A948437826675F1500666C01 /* ReactiveCocoa.storyboard in Resources */,
+				A948437626675E6100666C01 /* ReactiveObjC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +476,10 @@
 			files = (
 				A9484343266757A600666C01 /* ViewController.swift in Sources */,
 				A948433F266757A600666C01 /* AppDelegate.swift in Sources */,
+				A948437E26675F5D00666C01 /* XLLReactiveObjCViewController.m in Sources */,
+				A9484384266771AF00666C01 /* XLLReactiveObjCCodeViewController.m in Sources */,
 				A9484341266757A600666C01 /* SceneDelegate.swift in Sources */,
+				A9484381266763C300666C01 /* XLLReactiveObjCViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZDUWTH9N7G;
 				INFOPLIST_FILE = XLLMVVMDemo/Info.plist;
@@ -595,6 +666,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.melot.XLLMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -606,6 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZDUWTH9N7G;
 				INFOPLIST_FILE = XLLMVVMDemo/Info.plist;
@@ -615,6 +689,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.melot.XLLMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
