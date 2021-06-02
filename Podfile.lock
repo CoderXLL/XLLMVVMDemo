@@ -1,0 +1,24 @@
+PODS:
+  - ReactiveCocoa (11.2.1):
+    - ReactiveSwift (~> 6.6)
+  - ReactiveObjC (3.1.1)
+  - ReactiveSwift (6.6.0)
+
+DEPENDENCIES:
+  - ReactiveCocoa
+  - ReactiveObjC
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - ReactiveCocoa
+    - ReactiveObjC
+    - ReactiveSwift
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: 194289e7069037d40c59cb4ae9230f4b1ec05fa8
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  ReactiveSwift: be9407e2aaf8a11e53a5229255693cffd9a63ccf
+
+PODFILE CHECKSUM: 85e6796a59b23ff22fddb396f8038d821ecf02a4
+
+COCOAPODS: 1.10.1
