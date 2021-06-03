@@ -6,7 +6,10 @@ target 'XLLMVVMDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'ReactiveCocoa'  # Swift版RAC
-  pod 'ReactiveObjC'   # OC版RAC  
+  pod 'ReactiveObjC'   # OC版RAC
+  
+  pod 'RxSwift', '6.2.0'
+  pod 'RxCocoa', '6.2.0'
 
   # Pods for XLLMVVMDemo
 

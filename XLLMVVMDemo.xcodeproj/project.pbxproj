@@ -24,6 +24,7 @@
 		A948437E26675F5D00666C01 /* XLLReactiveObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A948437D26675F5D00666C01 /* XLLReactiveObjCViewController.m */; };
 		A9484381266763C300666C01 /* XLLReactiveObjCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9484380266763C300666C01 /* XLLReactiveObjCViewModel.m */; };
 		A9484384266771AF00666C01 /* XLLReactiveObjCCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9484383266771AF00666C01 /* XLLReactiveObjCCodeViewController.m */; };
+		A9491F332668BB5B000C55E9 /* day01-UITableView_RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9491F322668BB5B000C55E9 /* day01-UITableView_RX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		A9484380266763C300666C01 /* XLLReactiveObjCViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLReactiveObjCViewModel.m; sourceTree = "<group>"; };
 		A9484382266771AF00666C01 /* XLLReactiveObjCCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLReactiveObjCCodeViewController.h; sourceTree = "<group>"; };
 		A9484383266771AF00666C01 /* XLLReactiveObjCCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLReactiveObjCCodeViewController.m; sourceTree = "<group>"; };
+		A9491F322668BB5B000C55E9 /* day01-UITableView_RX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day01-UITableView_RX.swift"; sourceTree = "<group>"; };
 		AD829713DF43BC488C43EB78 /* Pods-XLLMVVMDemo-XLLMVVMDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLMVVMDemo-XLLMVVMDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-XLLMVVMDemo-XLLMVVMDemoUITests/Pods-XLLMVVMDemo-XLLMVVMDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F50E96F168AFCB677CB68785 /* Pods-XLLMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLMVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-XLLMVVMDemo/Pods-XLLMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +220,7 @@
 		A948437426675C9B00666C01 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				A9491F322668BB5B000C55E9 /* day01-UITableView_RX.swift */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				A9484343266757A600666C01 /* ViewController.swift in Sources */,
 				A948433F266757A600666C01 /* AppDelegate.swift in Sources */,
 				A948437E26675F5D00666C01 /* XLLReactiveObjCViewController.m in Sources */,
+				A9491F332668BB5B000C55E9 /* day01-UITableView_RX.swift in Sources */,
 				A9484384266771AF00666C01 /* XLLReactiveObjCCodeViewController.m in Sources */,
 				A9484341266757A600666C01 /* SceneDelegate.swift in Sources */,
 				A9484381266763C300666C01 /* XLLReactiveObjCViewModel.m in Sources */,
